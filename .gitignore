@@ -3,6 +3,7 @@
 
 # Virtual environments
 .venv/
+venv/
 
 # Python-generated files
 __pycache__/

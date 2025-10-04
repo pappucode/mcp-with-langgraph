@@ -71,7 +71,6 @@ def summarize(start_date, end_date, category=None):
         cols = [d[0] for d in cur.description]
         return [dict(zip(cols, r)) for r in cur.fetchall()]
 
-
 @mcp.resource("expense://categories", mime_type="application/json")
 def categories():
     # Read fresh each time so you can edit the file without restarting
