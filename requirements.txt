@@ -6,5 +6,6 @@ langchain-groq
 streamlit
 langchain_tavily
 langchain-mcp-adapters 
+langchain-openai
 mcp
 
