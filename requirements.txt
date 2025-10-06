@@ -8,4 +8,5 @@ langchain_tavily
 langchain-mcp-adapters 
 langchain-openai
 mcp
-
+fastapi
+uvicorn
